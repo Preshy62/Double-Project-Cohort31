@@ -1,0 +1,68 @@
+a{
+    text-decoration: none ;
+    color: white;
+    font-size: 13px;
+   }
+   
+   .first{
+       background-color:lightgray;
+       padding: 10.5px;
+       margin-left: 70px;
+   }
+   .third{
+       margin-right: 600px;
+   }
+   
+   .second-layer{
+       background-color: #d3d3d3;
+   }
+   .second1{
+       margin-left: 69px;
+       font-size: 25px;
+       color: grey;
+     
+   }
+   .second2 a{
+       color: grey;
+       margin-right: 15px;
+       margin-left: 10px;
+   
+   }
+   .second2 i{
+       margin-right: 15px;
+       margin-left: 10px;
+   }
+   .second3 a{
+       color: green;
+   }
+   
+   .second3 a{
+       margin-right: 15px;
+       margin-left: 10px;
+   }
+   .second4 a{
+       color: red;
+   }
+   .second4 a{
+       margin-right: 49px;
+       margin-left: 10px;
+   }
+   ::placeholder{
+       font-size: 15px;
+       padding-left: 30px;
+   }
+   .mag{
+       position: absolute;
+       top: 96px;
+       right: 250px;
+   }
+   
+   .love{
+       color: grey;
+       margin-right: 50px;
+       margin-left: 13px;
+       font-size: 17px;
+   }
+   .fifth{
+       margin-right: 50px;
+   }

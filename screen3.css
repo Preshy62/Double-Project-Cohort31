@@ -1,0 +1,60 @@
+/* img{
+height: 50px;
+width: 90px;
+
+} */
+.hw{
+    width: 250px;
+    height: 69px;
+    margin-left: -12px;
+   }
+   .superbalist{
+       width: 250px;
+       height: 69px;
+       margin-left: -12px;
+   }
+   .mango{
+       width: 250px;
+       height: 69px;
+       margin-left: -12px;
+   }
+   .gstar{
+       width: 250px;
+       height: 69px;
+       margin-left: -12px;
+   }
+   span{
+       font-weight: bold;
+       font-size: 12px;
+   }
+   
+   .divider{
+       display: flex;
+       align-items: center;
+   }
+   
+   .divider::before, .divider::after{
+   
+       content: "";
+       padding: 0.1px;
+       background-color:lightgray;
+       flex: 1;
+       margin: 8px;
+   }
+   
+   .box{
+   
+       height: 313px;
+       width: 260px;
+       margin-left: -16px;
+       margin-top: -18px;
+   
+   
+   }
+   .second1{
+       font-weight: bold;
+       font-size: 20px; 
+   }
+   .card-footer{
+       margin-top: -16px;
+   }
