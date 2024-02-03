@@ -1,0 +1,44 @@
+.first{
+    background-color: lightgray;
+}
+.second2{
+    margin-right: 30px;
+}
+a{
+    margin-right: 15px;
+    color: grey;
+    text-decoration: none;
+}
+img{
+    background-color: lightgrey;
+}
+.second3 a{
+    margin-right: 400px;
+}
+.mag{
+    position: absolute;
+    right: 230px;
+    top: 25px;
+    color: grey;
+   
+}
+::placeholder{
+    font-size: 15px;
+    padding-left: 30px;
+}
+i{
+    color: white;
+}
+.container{
+    font-size: 12px;
+}
+.info1 a, .info2 a{
+    color: white;
+}
+.info1 a{
+    margin-right:850px;
+}
+.info2 a{
+    border: solid white 2px;
+    padding: 5px;
+}
