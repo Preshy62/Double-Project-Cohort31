@@ -1,0 +1,76 @@
+body{
+    background-color: lightgrey;
+}
+
+.container-fluid{
+    background-color: white;
+    width: 50%;
+}
+.container-main{
+   
+    text-align: center;
+}
+
+.container-form{
+    margin:0 auto;
+    width: 75%;
+}
+
+.text-dark{
+    position: absolute;
+    top: 0;
+    right:26%;
+}
+.container-form{
+    margin: 0 auto;
+    width: 70%;
+    
+} 
+.container-footer{
+    text-align: center;
+    font-weight: bold;
+}
+.women{
+ color: white;
+
+}
+.women a{
+    text-decoration: none;
+    color: white;
+}
+.men a, .notify a, .fb a{
+    text-decoration: none;
+    color: black;
+}
+.notify{
+    border: solid 2px black;
+    padding: 10px 40px;
+    
+}
+.footer-img img{
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+.fb i{
+    margin-right: 40px;
+}
+.fb{
+    border: solid 2px black;
+    padding: 10px 2px;
+}
+.fb a{
+    margin-right: 55px;
+}
+.last a{
+    text-decoration: none;
+    color: green;
+
+}
+.fb:hover{
+    color: white;
+    background-color: black;
+}
+.fb a:hover{
+    color: white;
+    
+} 
