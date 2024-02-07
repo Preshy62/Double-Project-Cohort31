@@ -1,0 +1,126 @@
+
+.navbar-brand img{
+    width: 100px;
+}
+
+.content-wrap{
+    background: #f4f9ff;
+    text-align: center;
+}
+
+.inner-wrap h2{
+    font-size: 40px;
+    color: #fff;
+
+}
+
+.inner-wrap h6{
+    
+    color: #fff;
+
+}
+
+.inner-wrap{
+    font-weight: bold;
+}
+
+
+.tablist{
+    display: flex;
+
+    /* align-items:flex-end; */
+    width: 100%;
+    margin: 10px;
+ 
+}
+
+.selection-wrap{
+    min-height: 50vh;
+    
+    background-size: cover;
+    background: no-repeat;
+
+}
+
+.orange-btn{
+    background: #db812e;
+    text-align: center;
+    font-weight: 450;
+    padding: 10px;
+    width: 170px;
+}
+
+.tab{
+    background: #fff !important;
+    width: 50%;
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 40px;
+    background: #08a5e3b2 !important;
+    padding: 0.8rem;
+    color: #fff;
+    
+    
+    /* margin: 10px; */
+}
+
+.tab-2{
+    background: #fff;
+    width: 50%;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-radius: 5px 5px 0 0;
+    padding: 1.3rem 0.8rem;
+
+    
+    /* margin: 10px; */
+}
+
+
+/* blue section start here */
+
+
+.blue-sec{
+    display: flex;
+    justify-content: space-around;
+    background: #08a5e3;
+    gap: 3rem;
+    padding: 20px 30px;
+    color: #fff;
+
+}
+
+
+.footer{
+    background: #4c4c4c;
+    padding: 20px;
+    text-align: start;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+.img-fluid{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,257 @@
+*{
+    text-decoration: none;
+    outline: none;
+    list-style-type: none;
+}
+
+
+
+/* .nav-pills{
+    display: flex;
+    gap: 3rem;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+} */
+
+.nav .d-block{
+    color: #fff;
+    font-weight: bold;
+
+}
+
+.nav-pills .nav-link:hover{
+    background: rgba(101, 154, 253, 0.667) !important;
+  
+}
+
+.btn-group:hover .dropdown-menu{
+    display: block;
+    }
+
+
+.tab-content{
+    background: rgba(101, 154, 253, 0.667) !important;
+    
+    padding: 60px;
+  
+}
+
+
+.ng-value{
+    padding: 2px;
+  
+}
+
+.section{
+    margin-top: px !important;
+}
+
+
+.hotels{
+    margin-top: 40px !important;
+}
+
+
+.ng-value select{
+    padding: 10px;
+}
+
+input{
+    height: 60px;
+    
+}
+
+
+input[type="text"]{
+    width: 250px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="date"]{
+    width: 180px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="submit"]{
+    width: 100px;
+    border-radius: 5px;
+    outline: none;
+}
+
+input[type="checkbox"]{
+    width: 15px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.content3 button{
+    width: 100px;
+    padding: 18px;
+    margin-top: 24px;
+    background: #f58220;
+}
+
+
+.flo1 input{
+    margin-top: -16px;
+}
+
+.flo1 {
+    display: flex;
+
+}
+
+.custom-control{
+     float: right;
+    padding: 17px;
+    display: flex;
+    gap: 1rem;
+    
+}
+
+
+
+/* .form-group{
+    position: relative;
+    width: 100%;
+} */
+
+  
+  .ml{
+      position: absolute;
+  right: -20%;
+  }
+  
+ 
+  .flight-location-overlay{
+      position: absolute;
+      top: 0;
+     
+  }
+  
+  
+  .flight-paynow-overlay{
+      position: absolute;
+      bottom: 0;
+  }
+  
+  
+  
+  .media{
+     display: flex;
+     gap: 2rem;
+     
+  }
+  
+  
+  .ng-star-inserted{
+     
+      display: flex;
+      gap: 1rem;
+   
+  }
+
+/* travelling section start here */
+
+.email{
+    width: 50%;
+    height: 60px;
+
+}
+
+.waves-effect{
+    width: 25%;
+    height: 60px;
+    background: #f58220 !important;
+    border-color: #f58220;
+}
+
+
+
+.sect{
+    background: #3582e7 !important;
+    margin-top: 80px;
+
+}
+
+.image-box img{
+   
+    margin-top: -120px;
+    margin-left: -16px;
+    
+}
+
+.conten{
+    margin-left: -100px;
+    margin-top: 60px !important;
+}
+
+.conten .text-white{
+    margin-top: 0px;
+}
+
+.img-ios{
+    margin-top: 40px;
+}
+
+
+.app{
+    margin-right: 20px;
+
+}
+
+.text{
+    margin-left: 30px;
+}
+
+
+
+.font-0{
+ margin-right: px;
+}
+
+
+.d-md-flex{
+ 
+    gap: 1rem;
+}
+
+
+
+
+
+
+
+.footer{
+    background: #4c4c4c;
+    padding: 20px;
+}
+
+a{
+    text-decoration: none !important;
+}
+
+
+.img-fluid{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

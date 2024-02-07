@@ -1,0 +1,1098 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wakana</title>
+    <link rel="stylesheet" href="wakana.css">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="./image/wakanow-logo.png" alt=""></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Flights</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Hotels</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="/rides.html">Rides</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Travel Extras</a>
+              </li>
+
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  More
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+
+              <li>
+      
+              </li>
+
+              
+
+            </ul>
+
+
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+
+                 
+
+                        <div class="btn-group">
+                            <button  type="button" class="btn btn-white dropdown-toggle text-primary" data-bs-toggle="dropdown" aria-expanded="false">Support</button>
+                            <ul class="dropdown-menu">
+    
+                              <li><a class="dropdown-item p-2" href="#">08163892768</a></li>
+                              <li><a class="dropdown-item p-2" href="#">Another action</a></li>
+                              <li><a class="dropdown-item p-2" href="#">Something else here</a></li>
+                              <li><hr class="dropdown-divider p-2"></li>
+                              <li><a class="dropdown-item p-2" href="#">Separated link</a></li>
+                            </ul>
+                         </div>
+    
+                  </li>
+
+                  <li class="nav-item">
+                    <!-- <a class="nav-link" href="#">Link</a> -->
+                    <div class="btn-group position-static">
+                        <button  type="button" class="btn btn-white dropdown-toggle text-primary" data-bs-toggle="dropdown" aria-expanded="false">
+                             <span><img height="17" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/ng.svg"></span></button>
+                        <ul class="dropdown-menu">
+    
+                            
+    
+                          <li><a class="dropdown-item" href="#"><span><button class="dropdown-item">
+                            <img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/gb.svg">
+                            <a class="ml-1 p-4" href="https://www.wakanow.co.uk/en-gb">United Kingdom</a></a></li>
+                          
+                            <li><a class="dropdown-item" href="#">  <img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/gh.svg">
+                            <a class="ml-1" href="https://www.wakanow.com.gh/en-gh/">Ghana</a></a></li>
+                          <li><a class="dropdown-item p-3" href="#"><img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/sl.svg">
+                            <a class="ml-1" href="https://www.wakanow.com.sl/en-sl">Sierra Leone</a></a></li>
+    
+                          <li><a class="dropdown-item" href="#"> <img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/gm.svg">
+                              <a class="ml-1" href="https://www.wakanow.gm/en-gm">Gambia</a></a></li>
+    
+                              <li><a class="dropdown-item" href="#"> <img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/gm.svg">
+                                <a class="ml-1" href="https://www.wakanow.gm/en-gm">Gambia</a></a></li>
+    
+                                <li><a class="dropdown-item" href="#"> <img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/gm.svg">
+                                    <a class="ml-1" href="https://www.wakanow.gm/en-gm">Gambia</a></a></li>
+              
+                        </ul>
+                     </div>
+
+
+                  </li>
+
+                  <!-- <li class="nav-item"> -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link" href=""><span>NGN</span>
+                            <div ngbdropdownmenu="" class="dropdown-menu dropdown-menu-right w-100%">
+        
+                     <span><button class="dropdown-item">
+                        <img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/ae.svg">
+                        <a class="ml-1" href="https://www.wakanow.ae/en-ae/">Dubai</a>
+                         </button>
+                     </span>
+        
+                       <span><button class="dropdown-item">
+                        <img height="20" class="mr-2" src="https://wakanow-images.azureedge.net/Images/CountryFlagImage/lr.svg">
+                            <a class="ml-1" href="https://www.wakanow.com.lr/en-lr">Liberia</a>
+                             </button>
+                       </span>
+                   
+                       </div>
+                    </a>
+                     
+                      </li>
+                  
+               
+
+                    <li class="nav-item">
+                        <!-- <a class="nav-link" href="#">Link</a> -->
+                     
+    
+                            <div class="btn-group">
+                                <button  type="button" class="btn btn-white dropdown-toggle text-primary" data-bs-toggle="dropdown" aria-expanded="false">EN</button>
+                                <ul class="dropdown-menu">
+        
+                                  <li><a class="dropdown-item p-2" href="#">08163892768</a></li>
+                                
+                                </ul>
+                             </div>
+        
+                      </li>
+                
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">WakaPoints</a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Manage By Booking</a>
+                  </li>
+
+                  <li class="nav-item" style="background: #f58220; padding: 2px 8px; border-radius: 4px; border: 1px solid transparent;">
+                    <a class="nav-link" href="/home.html" target="_blank" rel="noopener no-referrer">List Your Property</a>
+                  </li>
+            </ul>
+
+
+            <!-- <form class="d-flex" role="search">
+            
+              <a href=""><button class="btn btn-warning" type="submit">List Your Property</button></a>
+            </form> -->
+          </div>
+        </div>
+      </nav>
+
+      <!-- nav header ends here -->
+
+   
+
+                <div class="section bg-hero" style="background-image: url(./image/photography-business.webp); padding-bottom: 30px;">
+
+                   <div class="bg-overlay">
+
+             <div class="container">
+                   <div class="row">
+                      <div class="col-lg-12">
+                       <h4 class="text-white d-sm-block mt-4">Search and book Flights and Hotels</h4>
+
+                    <ul class="nav-pills mt-sm-5 nav " role="tablist ">
+                             <li class="flex-grow-1 flex-sm-grow-0 nav-item"><a class="nav-link" href=""><span class="d-block d-sm-inline-block"><img src="./image/plane.png" alt="">Book Flights</span></a></li>
+                             <li class="flex-grow-1 flex-sm-grow-0 nav-item"><a class="nav-link" href=""><span class="d-block d-sm-inline-block"> <img src="./image/bed.png" alt="">Find Hotels</span></a></li>
+                             <li class="flex-grow-1 flex-sm-grow-0 nav-item"><a class="nav-link" href=""><span class="d-block d-sm-inline-block"> <img src="" alt="">Visa</span></a></li>
+                    </ul>
+ 
+                  <div class="tab-content  p-">
+             
+                    <div class="ng-value d-flex">
+
+                        <div class="ng-value">
+                                <select role="listbox" name="" id="">
+                    <option value="Round Trip">Round Trip</option>
+                    <option value="one way">One Way</option>
+                    <option value="multi-city">Multi-City</option>
+                   </select>
+                        
+                        </div>
+                           
+            
+                  
+
+                    <div class="ng-value">
+                        <select role="listbox" name="" id="">
+                            <option value="1 Passenger">1 Passengers</option>
+                            <option value="adults">Adults</option>
+                            <option value="children">Children</option>
+                            <option value="infant">Infant</option>
+                        </select>
+                       
+                    </div>
+
+                    <div class="ng-value">
+                        <select role="listbox" name="" id="">
+                            <option value="Economy">Economy</option>
+                            <option value="Premium economy">Premium Economy</option>
+                            <option value="business">Business</option>
+                            <option value="first class">First Class</option>
+                        </select>
+                      
+                    </div>
+
+                   </div>
+                    
+
+            
+                   <div class="form-group d-flex">
+
+                    <form action="" style="display: flex; gap: 1rem; width: 100%;">
+
+                    
+ 
+                    <div class="content">
+                       <label for=""> <span>From Where</span></label>
+                       <input type="text" name="" id="" placeholder="city or town">
+                     </div>
+                
+                <div class="content">
+                       <label for=""><span>To Where </span></label>
+                       <input type="text" name="" id="" placeholder="city or town">
+                 </div>
+                
+                 <div class="content-1 d-flex">
+                
+                   <div class="flight-date">
+                
+                       <label for="">Leaving On </label>
+                       <input type="date" name="" id="">
+                
+                  </div>
+                
+                   <div class="flight-date">
+                          <label for="">Returning On </label>
+                          <input type="date" name="" id="">
+                
+                 
+                    </div>
+                   
+                     </div>
+                
+                <div class="content3">
+                    
+                                <a href=""><button class="btn btn-warning hero-submit-btn py-3" type="submit">Let's Go</button></a>
+                
+                </div>
+                
+           
+                </form>
+                </div>
+     
+               
+
+
+
+            <div class="custom-control" style="position: relative;">
+                <div class="flo1">
+                      <input class="control-point" type="checkbox" name="" id="">
+                    <label class="label text-white" for=""><span></span>My date are flexible</label>
+                </div>
+                 
+                   <div class="float-sm-right mt-sm-0 text-white">
+                
+                <span class="flo" >Best value guaranteed</span>
+
+            </div>
+
+            </div>
+
+         
+
+</div>
+     </div>
+
+
+ </div>
+
+                    
+              
+
+
+        </div>
+    </div>
+
+
+</div>
+
+
+
+</div>
+
+</section>
+            
+        
+   
+                <div class="container bg-white">
+
+                     <div class="row">
+
+                         <div class="col-md-4">
+    
+                            <div  class="media mb-4 flex-lg-row flex-md-column">
+
+                                <div  class="align-self-lg-center mr-2">
+                                   <img  alt="" class="img-fluid d-block" src="./image/africa-icon.svg">
+                                </div>
+
+                                 <div  class="media-body">
+                                      <h5  class="font-18 mb-1">Africa’s No. 1</h5>
+                                      <p  class="services-desc mb-0">Wakanow is Africa’s leading travel <br>company</p>
+                                 </div>
+                            </div>
+        
+                        </div>
+
+                        <div class="col-md-4">
+               
+                
+                             <div class="media mb-4 flex-lg-row flex-md-column">
+
+                                 <div  class="align-self-lg-center mr-3">
+                                    <img alt="" class="img-fluid d-block" src="./image/pay-small-small.svg">
+                                </div>
+                                
+                                <div class="media-body">
+                                    <h5  class="font-18 mb-1">Pay Small Small</h5>
+                                    <p class="services-desc mb-0">Lock down great travel deals and <br>pay in convenient installments</p>
+                                </div>
+                            </div>
+                            
+                       </div>
+
+                        <div class="col-md-4 ">
+                
+                            <div class="media mb-4 flex-lg-row flex-md-column">
+                                <div class="align-self-lg-center mr-3">
+                                    <img  alt="" class="img-fluid d-block" src="./image/telemarketer.svg">
+                                </div>
+
+                                <div  class="media-body">
+                                   <h5  class="font-18 mb-1">We are here for you</h5>
+                                   <p class="services-desc mb-0">Reach us 24/7 <br> (Monday - Sunday)</p>
+                                </div>
+                            </div>
+                   
+                        </div>
+                
+                  </div>
+
+               
+
+
+    
+
+                     <div class="">
+                        <div id="carouselExampleSlidesOnly" class="carousel slide w-100px" data-bs-ride="carousel">
+                            
+                            <div class="carousel-inner">
+                               
+                               <div class="carousel-item active">
+                                   <img src="./image/London.jpg" class="d-block w-100" height="120px" alt="...">
+                                </div>
+
+                                <div class="carousel-item">
+                                   <img src="./image/Nairobi.jpg" class="d-block w-100" height="120px" alt="...">
+                                </div>
+                                        
+                                <div class="carousel-item">
+                                    <img src="./image/Kigali.jpg" class="d-block w-100" height="120px" alt="...">
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        
+                     </div>
+
+
+
+                     <div class="section">
+                        <div class="mt-4">
+
+                                <h4>Today's Flight Deals <span>
+                                        <img  src="assets/images/icons/verified.png" alt="" class="ml-2"></span>
+                                    </h4>
+
+                                    <div class="row">
+                                        <div class="col-lg-12">
+                                    
+                                        
+                                    
+                                    
+                                        <div class="position-absolute" style="z-index: 100;"></div>
+                                        <owl-carousel-o class="flight-deal">
+                                    
+                                            <div class="owl-carousel owl-theme owl-loaded owl-responsive owl-drag">
+                                    
+                                                <div class="owl-stage-outer ng-star-inserted">
+                                    
+                                                    <owl-stage class="ng-star-inserted d-flex">
+                                                        
+                                    
+                                                            <!-- <div class="owl-stage" style="width: px; transform: translate3d(-334px 0px 0px); transition: all 0s ease 0s;"> -->
+                                    
+                                                                <!-- <div class="owl-item  " style="width: 300px; margin-right: 1px;"> -->
+                                                         
+                                                           
+                                                            
+                                                            
+                                                                    
+                                                                    
+                                                                   
+                                                                    <div  class="card flight-deal-cards" style="width: 360px;">
+                                                                         <a  href="">
+                                                                    <img  alt="" class="img-fluid d-block bg-image-fixed" src="./image/Jeddah.png" style="width: 360px; height: 243px; border-radius: 3px;" >
+                                                                    <div class="flight-location-overlay">
+                                                                    <div  class="media text-white">
+                                                                    <div  class="media-body p-2">
+                                                                    <p class="mb-1">Lagos <i  class="mdi mdi-arrow-right mx-1"></i>
+                                                                    <span class="font-weight-medium location">London</span></p>
+                                                                    <p  class="font-12">Feb 19, 2024 - Mar 24, 2024</p>
+                                                                    </div>
+                                                                    <div  class="ml-2 p-2 me-1">
+                                                                    <img alt="" src="./image/MS.gif">
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                    
+                                                                    <div  class="flight-paynow-overlay px-3">
+                                                                    <div  class="media text-white py-2">
+                                                                    <div class="media-body">
+                                                                    <p  class="font-12 mb-1 ">Pay now</p>
+                                                                    <h5 class="font-18 text-white mb-0 ">₦1,018,584</h5>
+                                                                    </div>
+                                                                    <div  class="ml-2 ng-star-inserted px-2">
+                                                                    <a  href="" class="btn btn-sm btn-success">
+                                                                    <div class="media" >
+                                                                    <div  class="align-self-center">
+                                                                    <img src="./image/paysmallsmall-white.png "  alt="">
+                                                                    </div>
+                                                                    <div  class="media-body">
+                                                                    <span  class="font-10">Lock this fare</span>
+                                                                    <span  class="d-block font-14 mb-0">₦285,203</span>
+                                                                    </div>
+                                                                    </div>
+                                                                    </a>
+                                                                    </div>
+                                                                    </div>
+                                                                    </div>
+                                                                                                
+                                                                    </a>
+                                                                    
+                                                                    </div>
+                                                
+                                                                    
+                                    
+                                    
+                                                                    <!-- <div class="owl-item ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 300px; margin-right: 1px;"> -->
+                                                         
+                                                           
+                                                            
+                                                            
+                                                                        
+                                                                        
+                                                                        <div  class="card flight-deal-cards"  style="width: 360px; ">
+                                                                            <a  href="">
+                                                                        <img  alt="" class="img-fluid mx-auto d-block bg-image-fixed ng-star-inserted" src="./image/DealOfTheDay_03.jpg" style="width: 360px; height: 243px; border-radius: 3px;">
+                                                                        <div class="flight-location-overlay">
+                                                                        <div  class="media text-white">
+                                                                        <div  class="media-body p-2">
+                                                                        <p class="mb-1">Lagos <i  class="mdi mdi-arrow-right mx-1"></i>
+                                                                        <span class="font-weight-medium location">London</span></p>
+                                                                        <p  class="font-12">Feb 19, 2024 - Mar 24, 2024</p>
+                                                                        </div>
+                                                                        <div  class="ml-2 p-2">
+                                                                        <img alt="" src="./image/MS.gif">
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+                                                                        
+                                                                        <div  class="flight-paynow-overlay px-3">
+                                                                        <div  class="media text-white py-2">
+                                                                        <div class="media-body">
+                                                                        <p  class="font-12 mb-1">Pay now</p>
+                                                                        <h5 class="font-18 text-white mb-0">₦1,018,584</h5>
+                                                                        </div>
+                                                                        <div  class="ml-2 ng-star-inserted px-2">
+                                                                        <a  href="" class="btn btn-sm btn-success">
+                                                                        <div class="media">
+                                                                        <div  class="align-self-center mr-1">
+                                                                        <img src="./image/paysmallsmall-white.png "  alt="">
+                                                                        </div>
+                                                                        <div  class="media-body">
+                                                                        <span  class="font-10">Lock this fare</span>
+                                                                        <span  class="d-block font-18 mb-0">₦285,203</span>
+                                                                        </div>
+                                                                        </div>
+                                                                        </a>
+                                                                        </div>
+                                                                        </div>
+                                                                        </div>
+                                                                                                    
+                                                                        </a>
+                                                                       
+                                                                        </div>
+                                                    
+                                                                        
+                                    
+                                    
+                                    
+                                                                        <!-- <div class="owl-item  " style="width: 300px; margin-right: 1px;"> -->
+                                                         
+                                                           
+                                                            
+                                                            
+                                                                            
+                                                                           
+                                                                            
+                                                                            <div  class="card flight-deal-cards" style="width: 360px; ">
+                                                                              <a  href="">  
+                                                                            <img  alt="" class="img-fluid mx-auto d-block bg-image-fixed ng-star-inserted" src="./image/DealOfTheDay_03.jpg" style="width: 360px; height: 243px; border-radius: 3px;"><!----><!---->
+                                                                            <div class="flight-location-overlay">
+                                                                            <div  class="media text-white">
+                                                                            <div  class="media-body p-2">
+                                                                            <p class="mb-1">Lagos <i  class="mdi mdi-arrow-right mx-1"></i>
+                                                                            <span class="font-weight-medium location">London</span></p>
+                                                                            <p  class="font-12">Feb 19, 2024 - Mar 24, 2024</p>
+                                                                            </div>
+                                                                            <div  class="ml-2 p-2">
+                                                                            <img alt="" src="./image/MS.gif">
+                                                                            </div>
+                                                                            </div>
+                                                                            </div>
+                                                                            
+                                                                            <div  class="flight-paynow-overlay px-3">
+                                                                            <div  class="media text-white py-2">
+                                                                            <div class="media-body">
+                                                                            <p  class="font-12 mb-1">Pay now</p>
+                                                                            <h5 class="font-18 text-white mb-0">₦1,018,584</h5>
+                                                                            </div>
+                                                                            <div  class="ml-2 ng-star-inserted p-2">
+                                                                            <a  href="" class="btn btn-sm btn-success">
+                                                                            <div class="media">
+                                                                            <div  class="align-self-center mr-1">
+                                                                            <img src="./image/paysmallsmall-white.png "  alt="">
+                                                                            </div>
+                                                                            <div  class="media-body">
+                                                                            <span  class="font-10">Lock this fare</span>
+                                                                            <span  class="d-block font-18 mb-0">₦285,203</span>
+                                                                            </div>
+                                                                            </div>
+                                                                            </a>
+                                                                            </div>
+                                                                            </div>
+                                                                            </div>
+                                                                                                        
+                                                                            </a>
+                                                                            
+                                                                            </div>
+                                                        
+                                                                        
+                                    
+                                    
+                                                                            <!-- <div class="owl-item  " style="width: 300px; margin-right: 1px;"> -->
+                                                  
+                                    
+                                    
+                                                            
+                                                                                
+                                    
+                                    
+                                    
+                                    </owl-stage>
+                                                            </div>
+                                                        
+                                    
+                                                 
+                                    
+                                                </div>
+                                    
+                                    
+                                    
+                                    
+                                    
+                                            </div>
+                                        </owl-carousel-o>
+                                        </div>
+
+
+                                 <div class="hotels">
+                                    <h2>Hotels in Popular Locations</h2>
+
+
+                                        <div class="row">
+                                            <div class="col lg 12">
+
+                                                
+                                                    <div class="col-lg-12">
+                                          
+                                                    <owl-carousel-o class="flight-deal">
+                                                
+                                                        <div class="owl-carousel owl-theme owl-loaded owl-responsive owl-drag">
+                                                
+                                                            <div class="owl-stage-outer ng-star-inserted">
+                                                
+                                                                <owl-stage class="ng-star-inserted">
+                                                                    
+                                                
+                                                                                <div  class="card flight-deal-cards" style="width: 540px; margin-right: 1px;">
+                                                                                     <a  href="">
+                                                                                <img  alt="" class="img-fluid mx-auto d-block bg-image-fixed ng-star-inserted" 
+                                                                                style="width: 540px; height: 250px;" src="./image/london (1).jpg">
+                                                                               
+                                                                                
+                                                                                <div  class="flight-paynow-overlay px-3">
+                                                                                <div  class="media text-white py-2">
+                                                                                <div class="media-body">
+                                                                                 <h5 class="font-18 text-white mb-0 ">London</h5>
+                                                                                <p  class="font-12 mb-1 ">Hotels 1253</p>
+                                                                               
+                                                                                </div>
+                                                                            
+                                                                                </div>
+                                                                                </div>
+                                                                                                            
+                                                                                </a>
+                                                                                
+                                                                                </div>
+                                                            
+                                                                                
+                                                
+                                                
+                                                                                <!-- <div class="owl-item ng-trigger ng-trigger-autoHeight ng-star-inserted" style="width: 300px; margin-right: 1px;"> -->
+                                                                     
+                                                                       
+                                                                        
+                                                                        
+                                                                                    
+                                                                                    
+                                                                                    <div  class="card flight-deal-cards"  style="width: 530px; margin-right: 1px;">
+                                                                                        <a  href="">
+                                                                                    <img  alt="" class="img-fluid mx-auto d-block bg-image-fixed ng-star-inserted" 
+                                                                                    style="width: 530px; height: 250px;" src="./image/London.jpg">
+                                                                                   
+                                                                                    
+                                                                                    <div  class="flight-paynow-overlay px-3">
+                                                                                    <div  class="media text-white py-2">
+                                                                                    <div class="media-body">
+                                                                                    <h5 class="font-18 text-white mb-0">New York</h5>
+                                                                                    <p  class="font-12 mb-1">Hotels 1235</p>
+                                                                                    
+                                                                                    </div>
+                                                                                   
+                                                                                    </div>
+                                                                                    </div>
+                                                                                                                
+                                                                                    </a>
+                                                                                   
+                                                                                    </div>
+                                                                
+                                                             
+                                                                   </owl-stage>
+                                                                        </div>
+                                                        
+                                                             </div>
+                                                
+                                                        </div>
+                                                    </owl-carousel-o>
+
+                                                    </div>
+                                            </div>
+                                        </div>
+                                
+  
+
+
+
+                      </div>
+                     
+
+
+
+                </div>
+
+
+                <section>
+
+                
+
+                <div class="sect bg-primar">
+<div class="container-fluid" >
+
+
+                    <div class="d-flex align-item-center">
+                        <div class="image-box">
+                            <img src="./image/app-download-icon-desktop.png" class="img-fluid d-none d-md-block" alt="">
+
+                            <img src="./image/app-download-icon-desktop.png" class="img-fluid d-md-none d-block" alt="" srcset="">
+                        </div>
+
+                        <div class="conten mt-">
+                            <h2 class="text-white">Get an amazing mobile app experience</h2>
+                            <p class="text-white">Download our Mobile App free today to book your flights, hotels, and visas and get amazing
+                                deals on the go
+                            </p>
+
+
+                            <div class=" d-md-flex align-item-center justity-content-between">
+
+                                <a href=""><img src="./image/IOS-image.png" class="img-ios mt" alt=""></a>
+                                <a href=""><img src="./image/Play-store.png" class="img-ios mb-" alt=""></a>
+
+                                <p class="text-white mt-5" style="font-weight: bold; margin-left: 20px;">OR</p>
+                                <div class="text">
+                                    <img src="./image/app-qr.svg" class="app" style="width: 50%; margin-left: 30px;" alt="">
+                                    <p class="font-0 text-white" style="font-size: 12px;">Scan Qr Code to download</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+ 
+</div>
+</section>
+
+<!-- tarvel booking start here -->
+
+
+
+
+<!-- traveling section start here -->
+    <div class="travel" style="background-color:  #deebff;;">
+<div class="container">
+
+
+        <div class="sub-section mt-5">
+            <div class="row text-center">
+                <div class="col-lg-8 text-center" style="position: relative; width: 90%; padding: 20px;">
+
+                    <div class="margi-right" style="margin-left: 50px; margin-right: -50px;">
+                        <h3 class="font-weight-bold">Like travel deals?</h3>
+                        <p class="text-dark">Enter your email and we'll send them your way.</p>
+
+                        <div class="sub">
+                            <form action="">
+                                <div class="form-row">
+
+                                    <div class="col-md-9" style="width: 90%; margin-left: 50px;">
+                                        <input class="email" type="email" name="" id="" placeholder="Enter Your Email">
+
+                                          
+                                         <button type="submit" class="btn btn-warning btn-sm waves-effect btn-block"><span>Subscribe</span></button>
+                                        
+                                    </div>
+
+                                    <div class="col-md-3">
+                                        <div class="subscribe-btn">
+
+                                        </div>
+
+                                    </div>
+
+                                    
+                                      
+                                   
+
+                                </div>
+                            </form>
+                        </div><br>
+
+                        <p class="mt-md-0">Your privacy is important to us, so we'll never spam you or share your info with third parties. <br>
+                             Take a look at our privacy policy.
+                             You can unsubscribe at any time.</p>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+</div>        
+    </div>
+
+
+
+<div class="section-footer">
+
+    <div class="container">
+
+        <div class="row">
+            <h4 class="font-14 mt-4 ">Search Flights, Hotels, Bus and Holiday Packages</h4>
+            <div class="col-lg-12">
+
+                
+
+                <div class="">
+
+                     <p class="collapse">
+
+                    <div class="col-lg-12">
+                       <div>
+                        <p class="collapse show ">Wakanow stands as Africa's premier Tour Operator, Travel Arranger, 
+                            and comprehensive online travel booking company. At Wakanow, we understand that Nigerians 
+                            love to book cheap flights & other travel services,
+                             so we provide our customers with a one-stop booking portal for cheap airline ticketsa <br>
+                              <a href="">Hotels</a>
+                            <a href="">Visa Assistance</a>
+                        <a href=""></a>
+                    <a href="">Holiday Packages</a> Airport Transfers <a href="">Loyalty progrom</a>and many more.
+                     Our portal gives customers the 
+                    power of choice from a broad selection of top travel deals, 
+                    and the ability to search, compare and <a href="">Book Flights</a> from domestic and international Airlines like
+                <a href="">Arik Air, Air Peace, & saudi Airlines,</a> from the comfort of their homes and everywhere they are. 
+                Some of our more popular destinations include flights from <a href=""> Lagos to London, Lagos to Abuja & Lagos to Port Harcourt flights.</a>
+                We also have an interactive Call Centre and physical travel centres numbering 32 and counting across Nigeria, 
+                with a dedicated travel centre strategically located at international airports for customers’ convenience. 
+                We have offices in Ghana, Dubai, and Sierra Leone with aggressive plans to expand into several African countries
+                 and the rest of the world. Our strategic relationships with Travel Partners ensure we offer
+                  the best travel deals to our customers, 
+                every time. Book last-minute flight & hotel deals now.</p>
+          </div>
+
+
+
+                    </div>
+
+                    </p>
+
+                    <div class="col sm 12">
+                        <div>
+                            <h2>Cheap Airline Flight Booking</h2>
+                            <p>Wakanow is the largest online Tour Operator, Travel Arranger in Nigeria and Africa, 
+                                offering a wide range of comprehensive travel services that includes flight bookings, 
+                                hotel bookings, visa assistance, travel insurance, and holiday packages. 
+                                We offer swift online booking of cheap flight tickets for some of the biggest
+                                 Airline companies in the world like Air Peace, Arik Air, Dana Air among others.
+        
+                            </p>
+        
+                            <h2>Best Deals on Tickets & Airfare on Wakanow</h2>
+                            <p>Founded in 2008, we have our Headquarters in Lagos, Nigeria with offices in Ghana, 
+                                the United Kingdom, South Africa, Kenya, and Dubai. The company's goal is to make travel
+                                 easier and more convenient for travelers in Africa. It offers competitive prices,
+                                  a comprehensive range of services, and a secure online booking system. Wakanow is 
+                                  also committed to providing customers with an exceptional customer service experience. 
+                                  Get the best deals on Airfare and Flight tickets when you book with Wakanow
+                                </p>
+        
+                                <h5>Q1. How to book a cheap flight in Nigeria?</h5>
+                                <p>Start by searching for flights online and comparing prices from different airlines.
+                                     You can use travel websites like Wakanow to compare prices and find the best deals.
+                                      Next, once you’ve found the cheapest flight, book it online. Make sure to double-check
+                                       all of the information before confirming your booking. Pay for the flight using a 
+                                       credit card or other secure payment method. As soon as your payment clears, you’ll
+                                        get a confirmation email containing your flight details. Make sure to keep
+                                         this email in a safe place. Next, print out your ticket or boarding pass and bring 
+                                         it with you to the airport.
+                                        </p>
+        
+                                        <h5>Q2. Which site is best for flight booking?</h5>
+        
+                                        <p>The best site for domestic and international flight booking depends on your needs,
+                                             budget and preferences. The most popular flight booking site to use is without 
+                                             a doubt, Wakanow. Not only have we stamped our brand in the soul of Nigeria,
+                                              we also have setup offices in other parts of the world like Dubai and UK
+                                            </p>
+        
+                                            <h5>Q3. Can I use my NIN to book a flight?</h5>
+                                            <p>Yes, you can use your NIN to book a flight. However, some airlines may require additional
+                                                 identification documents to verify your identity. Check with the airline you are traveling 
+                                                 with for more information.
+                                                </p>
+        
+        
+                        </div>
+                    </div>
+
+
+                    <div class="row mt-3">
+
+                        <div class="col-md-12" >
+                            <div class="pad-10">
+                                <div class="row">
+                                    <h2 class="font-14 col-md-12 mb-4 mt-4" style="font-size: 25px; font-weight: bold;">Cheap flights from Nigeria</h2>
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">African Flights</h5>
+                                                <li><a href="">Flights to Accra</a></li>
+                                                <li><a href="">Flights to Nairobi</a></li>
+                                                <li><a href="">Flights to Cape Town</a></li>
+                                                <li><a href="">Flights to Johannesburg</a></li>
+                                            </ul>
+            
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">European Flights</h5>
+                                                <li><a href="">Flights to London</a></li>
+                                                <li><a href="">Flights to Paris</a></li>
+                                                <li><a href="">Flights to Manchester</a></li>
+                                                <li><a href="">Flights to instanbul</a></li>
+                                            </ul>
+            
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">North American Hotels</h5>
+                                                <li><a href="">Flights to Atlanta</a></li>
+                                                <li><a href="">Flights to Toronto</a></li>
+                                                <li><a href="">Flights to Houston</a></li>
+                                                <li><a href="">Flights to New York</a></li>
+                                            </ul>
+            
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">Asian Flights</h5>
+                                                <li><a href="">Flights to Dubai</a></li>
+                                                <li><a href="">Flights to Abu Dhabi</a></li>
+                                                <li><a href="">Flights to Guangzhou</a></li>
+                                                <li><a href="">Flights to New Delhi</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+
+                    <div class="row mt-3">
+
+                        <div class="col-md-12" >
+                            <div class="pad-10">
+                                <div class="row">
+                                    <h2 class="font-14 col-md-12 mb-4 mt-2" style="font-size: 25px; font-weight: bold;">Cheap Hotels in Popular destinations</h2>
+                                    <div class="col-md-12">
+                                        <div class="row">
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">European Hotels</h5>
+                                                <li><a href="">Hotels in London</a></li>
+                                                <li><a href="">Hotels in Paris</a></li>
+                                                <li><a href="">Hotels in Manchester</a></li>
+                                                <li><a href="">Hotels in instanbul</a></li>
+                                            </ul>
+            
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">African Hotels</h5>
+                                                <li><a href="">Hotels in Accra</a></li>
+                                                <li><a href="">Hotels in Nairobi</a></li>
+                                                <li><a href="">Hotels in Cape Town</a></li>
+                                                <li><a href="">Hotels in Johannesburg</a></li>
+                                            </ul>
+            
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">Asian Hotels</h5>
+                                                <li><a href="">Hotels in Dubai</a></li>
+                                                <li><a href="">Hotels in Abu Dhabi</a></li>
+                                                <li><a href="">Hotels in Guangzhou</a></li>
+                                                <li><a href="">Hotels in New Delhi</a></li>
+                                            </ul>
+            
+                                            <ul class="col-sm col-6 list-unstyled">
+                                                <h5 class="font-14">North American Hotels</h5>
+                                                <li><a href="">Hotels in Atlanta</a></li>
+                                                <li><a href="">Hotels in Toronto</a></li>
+                                                <li><a href="">Hotels in Houston</a></li>
+                                                <li><a href="">Hotels in New York</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+            
+                    </div>
+
+                  <hr class="footer-alt-border" style="border: 1px dashed #0f0f0f;">
+
+                  <div class="row">
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="exclusive-deals">
+                            <h5 class="font-14">Get exclusive deals on our products</h5>
+                            <p>Book Flights, Domestic Flights, International Flights, Search Hotels, Holiday Packages, 
+                                Visa Assistance, and Pay Small Small</p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="exclusive-deals">
+                            <h5 class="font-14">Follow us!</h5>
+                            <p>Stay tuned and access the latest deals and discounts with:</p>
+
+                            <ul class="list-inline" style="font-size: 20px;">
+                                <li class="list-inline-item"><a href=""><i class="fa-brands fa-square-facebook"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa-brands fa-x-twitter"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa-brands fa-linkedin"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa-brands fa-square-youtube"></i></a></li>
+                                <li class="list-inline-item"><a href=""><i class="fa-brands fa-square-instagram"></i></a></li>
+                            </ul>
+                        </div>
+
+                    </div>
+
+                
+
+
+                    <div class="col-lg-4 col-sm-6">
+                        <div class="exclusive-deals">
+                            <h5 class="font-14">Get inspired for your next trip!</h5>
+                            <p>Find information about the best travel destinations and events in our Dreamguides.
+                                 Discover our travel guide.</p>
+                        </div>
+
+                    </div>
+
+
+                  </div>
+
+
+                </div>
+
+            </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+<app-footer>
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="text-white">
+                        <h5 class="font-14 d-none d-sm-block">Wakanow</h5>
+                        <ul class="list-inline footer-link font-10">
+                            <li class="list-inline-item"><a href="" class="text-white">About Us</a></li>
+                            <li class="list-inline-item"><a href="" class="text-white">Terms and Conditions</a></li>
+                            <li class="list-inline-item"><a href="" class="text-white">Privacy Policy</a></li>
+                            <li class="list-inline-item"><a href="" class="text-white">Contact us</a></li>
+                            <li class="list-inline-item"><a href="" class="text-white">Wakanow Affiliates</a></li>
+                            <li class="list-inline-item"><a href="" class="text-white">Refer a customer</a></li>
+                            <li class="list-inline-item"><a href="" class="text-white">Blog</a></li>
+                            <li class="list-inline-item"><a href="" class="text-white">Careers</a></li>
+                           
+                        </ul>
+                        <p class="mb-0">Copyright © 2008-2024 WAKANOW.COM LIMITED.</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</app-footer>
+
+
+
+
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
